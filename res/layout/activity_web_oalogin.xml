@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <android.support.v7.widget.Toolbar android:id="@id/toolbar" android:background="@color/colorPrimaryDark" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="?actionBarSize" android:elevation="10.0dp" app:navigationContentDescription="@string/abc_action_bar_up_description" app:navigationIcon="?homeAsUpIndicator" app:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar" app:title="@string/login_rtx"
+      xmlns:app="http://schemas.android.com/apk/res-auto" />
+    <WebView android:id="@id/webview" android:layout_width="match_parent" android:layout_height="match_parent" />
+</LinearLayout>

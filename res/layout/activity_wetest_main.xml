@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="top" android:layout_gravity="center" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+        <TextView android:textSize="35.0sp" android:textStyle="bold" android:gravity="center" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="用户登录信息" />
+        <TextView android:gravity="center" android:id="@id/text" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="test" />
+        <ImageView android:layout_gravity="center" android:id="@id/user_pic" android:layout_width="200.0dp" android:layout_height="200.0dp" android:src="@drawable/head_default1" />
+        <Button android:layout_gravity="center" android:id="@id/logout" android:background="@color/colorButton" android:layout_width="100.0dp" android:layout_height="50.0dp" android:text="退出登录" />
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>

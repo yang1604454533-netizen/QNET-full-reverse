@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<NetTemplate>
+    <template desc="用户自定义" id="" name="未命名" preset="false" selected="false" update_time="2018-01-01 00:00:00">
+        <param name="OutDelay" value="0" />
+        <param name="OutDelayBias" value="0" />
+        <param name="OutBandwidth" value="0" />
+        <param name="OutRate" value="0" />
+        <param name="OutPass" value="0" />
+        <param name="OutLoss" value="0" />
+        <param name="InDelay" value="0" />
+        <param name="InDelayBias" value="0" />
+        <param name="InBandwidth" value="0" />
+        <param name="InRate" value="0" />
+        <param name="InPass" value="0" />
+        <param name="InLoss" value="0" />
+        <param name="Protocol" value="3" />
+    </template>
+</NetTemplate>

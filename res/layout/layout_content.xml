@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.widget.LinearLayout android:orientation="vertical" android:background="@color/colorNetBackground" android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ListView android:id="@id/net_config_list" android:background="@color/colorNetControlBackground" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_weight="1.0" />
+    <LinearLayout android:id="@id/btnAddProfile" android:background="@color/colorNetControlBackground" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="12.0dp" android:layout_marginBottom="12.0dp">
+        <TextView android:textSize="16.0sp" android:background="?android:selectableItemBackground" android:paddingLeft="18.0dp" android:paddingTop="8.0dp" android:paddingRight="18.0dp" android:paddingBottom="8.0dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/btn_add_profile" />
+    </LinearLayout>
+</android.widget.LinearLayout>

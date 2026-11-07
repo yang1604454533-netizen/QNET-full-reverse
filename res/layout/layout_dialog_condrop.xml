@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_gravity="center" android:orientation="horizontal" android:paddingLeft="25.0dp" android:paddingTop="8.0dp" android:paddingRight="25.0dp" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:id="@id/textView1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="8.0dp" android:text="@string/net_title_condrop_pass" />
+    <EditText android:id="@id/edit_pass" android:layout_width="match_parent" android:layout_height="wrap_content" android:ems="10" android:layout_weight="1.0" android:inputType="number" />
+    <TextView android:id="@id/textView2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="8.0dp" android:layout_marginRight="8.0dp" android:text="@string/net_title_condrop_drop" />
+    <EditText android:id="@id/edit_drop" android:layout_width="match_parent" android:layout_height="wrap_content" android:ems="10" android:layout_weight="1.0" android:inputType="number" />
+</LinearLayout>

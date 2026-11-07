@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout android:background="@color/colorNetBackground" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:id="@id/net_edit_root" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="horizontal" android:id="@id/layoutProfileName" android:background="@color/colorNetControlBackground" android:paddingLeft="18.0dp" android:paddingTop="8.0dp" android:paddingRight="18.0dp" android:paddingBottom="8.0dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="12.0dp">
+            <TextView android:textSize="16.0sp" android:gravity="center_vertical" android:id="@id/edit_name" android:layout_width="match_parent" android:layout_height="match_parent" android:text="@string/title_profile_name" android:layout_weight="1.0" app:layout_constraintBottom_toTopOf="@id/editText" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+            <EditText android:textSize="14.0sp" android:gravity="right" android:id="@id/txtProfileName" android:background="@android:color/transparent" android:layout_width="wrap_content" android:layout_height="match_parent" android:minWidth="100.0dp" android:text="@string/default_profile_name" android:singleLine="true" app:layout_constraintEnd_toEndOf="parent" />
+        </LinearLayout>
+        <TextView android:textSize="12.0sp" android:paddingLeft="18.0dp" android:paddingTop="8.0dp" android:paddingRight="18.0dp" android:paddingBottom="8.0dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/profile_edit_tips" />
+        <ListView android:id="@id/listViewEdit" android:background="#fffafafa" android:paddingLeft="18.0dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="8.0dp" android:layout_weight="1.0" />
+        <LinearLayout android:id="@id/btn_save" android:background="@color/colorNetControlBackground" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="8.0dp">
+            <TextView android:textSize="16.0sp" android:textColor="@color/colorPrimary" android:gravity="center" android:background="?android:selectableItemBackground" android:paddingTop="8.0dp" android:paddingBottom="8.0dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/button_save_profile" />
+        </LinearLayout>
+        <LinearLayout android:id="@id/btn_delete" android:background="@color/colorNetControlBackground" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="8.0dp">
+            <TextView android:textSize="16.0sp" android:textColor="@android:color/holo_red_light" android:gravity="center" android:background="?android:selectableItemBackground" android:paddingTop="8.0dp" android:paddingBottom="8.0dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/button_delete_profile" />
+        </LinearLayout>
+    </LinearLayout>
+</android.support.design.widget.CoordinatorLayout>

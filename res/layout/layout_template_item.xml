@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:background="?android:selectableItemBackground" android:focusable="false" android:focusableInTouchMode="false" android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:id="@id/select_indicator" android:layout_width="4.0dp" android:layout_height="match_parent" />
+    <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="8.0dp" android:layout_marginTop="4.0dp" android:layout_marginBottom="4.0dp" android:layout_weight="1.0">
+        <TextView android:textSize="18.0sp" android:id="@id/template_name" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="3G" />
+        <TextView android:textSize="12.0sp" android:textColor="@android:color/darker_gray" android:id="@id/template_desc" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="high latency, high drop rate" />
+    </LinearLayout>
+    <LinearLayout android:gravity="right" android:id="@id/template_edit" android:paddingRight="8.0dp" android:layout_width="50.0dp" android:layout_height="match_parent">
+        <ImageView android:layout_gravity="center_vertical" android:layout_width="25.0dp" android:layout_height="25.0dp" android:src="@drawable/ic_image_edit" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<NetTemplate>
+    <template desc="测试网络：上行1024/下行2048，延迟183ms，抖动30%，丢包8%/6%" id="preset_test" name="测试网络" preset="true" selected="true" update_time="2023-01-01 00:00:00">
+        <param name="OutDelay" value="183" />
+        <param name="OutDelayBias" value="30" />
+        <param name="OutBandwidth" value="1024" />
+        <param name="OutRate" value="8" />
+        <param name="OutLoss" value="0" />
+        <param name="OutPass" value="0" />
+        <param name="InDelay" value="183" />
+        <param name="InDelayBias" value="30" />
+        <param name="InBandwidth" value="2048" />
+        <param name="InRate" value="6" />
+        <param name="InLoss" value="0" />
+        <param name="InPass" value="0" />
+        <param name="Protocol" value="3" />
+    </template>
+    <template desc="4G：上行1024/下行2048，延迟35ms，抖动10%，丢包0%/0%" id="preset_4g" name="4G网络" preset="true" selected="false" update_time="2023-01-01 00:00:01">
+        <param name="OutDelay" value="35" />
+        <param name="OutDelayBias" value="10" />
+        <param name="OutBandwidth" value="1024" />
+        <param name="OutRate" value="0" />
+        <param name="OutLoss" value="0" />
+        <param name="OutPass" value="0" />
+        <param name="InDelay" value="35" />
+        <param name="InDelayBias" value="10" />
+        <param name="InBandwidth" value="2048" />
+        <param name="InRate" value="0" />
+        <param name="InLoss" value="0" />
+        <param name="InPass" value="0" />
+        <param name="Protocol" value="3" />
+    </template>
+    <template desc="3G：上行300/下行488，延迟183ms，抖动50%，丢包8%/6%" id="preset_3g" name="3G网络" preset="true" selected="false" update_time="2023-01-01 00:00:02">
+        <param name="OutDelay" value="183" />
+        <param name="OutDelayBias" value="50" />
+        <param name="OutBandwidth" value="300" />
+        <param name="OutRate" value="8" />
+        <param name="OutLoss" value="0" />
+        <param name="OutPass" value="0" />
+        <param name="InDelay" value="183" />
+        <param name="InDelayBias" value="50" />
+        <param name="InBandwidth" value="488" />
+        <param name="InRate" value="6" />
+        <param name="InLoss" value="0" />
+        <param name="InPass" value="0" />
+        <param name="Protocol" value="3" />
+    </template>
+    <template desc="极差网络：上行256/下行256，延迟460ms，抖动150%，丢包40%/40%" id="preset_poor" name="极差网络" preset="true" selected="false" update_time="2023-01-01 00:00:03">
+        <param name="OutDelay" value="460" />
+        <param name="OutDelayBias" value="150" />
+        <param name="OutBandwidth" value="256" />
+        <param name="OutRate" value="40" />
+        <param name="OutLoss" value="0" />
+        <param name="OutPass" value="0" />
+        <param name="InDelay" value="460" />
+        <param name="InDelayBias" value="150" />
+        <param name="InBandwidth" value="256" />
+        <param name="InRate" value="40" />
+        <param name="InLoss" value="0" />
+        <param name="InPass" value="0" />
+        <param name="Protocol" value="3" />
+    </template>
+</NetTemplate>

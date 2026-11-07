@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="@string/setting_header_general">
+        <SwitchPreference android:title="@string/setting_title_fw_ctrl" android:key="@string/setting_key_fw_ctrl" android:summary="@string/setting_summary_fw_ctrl" android:defaultValue="true" />
+        <SwitchPreference android:title="@string/setting_title_fw_info" android:key="@string/setting_key_fw_info" android:summary="@string/setting_summary_fw_info" android:defaultValue="true" />
+        <SwitchPreference android:title="@string/setting_title_dump_pcap" android:key="@string/setting_key_dump_pcap" android:summary="" android:defaultValue="false" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/setting_header_about">
+        <Preference android:selectable="false" android:summary="@string/setting_summary_about" />
+        <Preference android:title="@string/setting_title_update" android:key="@string/setting_key_update" android:summary="@string/setting_summary_update">
+            <intent android:action="android.intent.action.VIEW" android:data="https://sj.qq.com/myapp/detail.htm?apkName=com.tencent.qnet" />
+        </Preference>
+    </PreferenceCategory>
+</PreferenceScreen>

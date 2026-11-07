@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:background="?android:selectableItemBackground" android:paddingTop="8.0dp" android:paddingRight="18.0dp" android:paddingBottom="8.0dp" android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:textSize="16.0sp" android:gravity="center_vertical" android:id="@id/edit_name" android:layout_width="match_parent" android:layout_height="match_parent" android:text="Protocol" android:layout_weight="1.0" app:layout_constraintBottom_toTopOf="@id/editText" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <TextView android:textSize="14.0sp" android:gravity="right" android:id="@id/editTextValue" android:background="@android:color/transparent" android:layout_width="wrap_content" android:layout_height="match_parent" android:text="TCP&amp;UDP" app:layout_constraintEnd_toEndOf="parent" />
+</LinearLayout>
